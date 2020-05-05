@@ -1,0 +1,2 @@
+#Sorry, we have to sudo :(
+sudo powermetrics --samplers smc -i1 -n1 | grep "die temp" | rev | cut -f1,2 -d" " | rev
